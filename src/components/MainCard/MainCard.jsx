@@ -13,6 +13,7 @@ import profilePicture from "../../assets/profilePicture.jpeg";
 
 import { AnalyticsButton } from "./AnalyticsButton";
 import { BsFillPlusCircleFill } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 let mockData = {
   totalPoints: 210,
@@ -20,6 +21,12 @@ let mockData = {
 };
 
 export const MainCard = () => {
+  const navigate = useNavigate();
+
+  const handleAddSessionClick = () => {
+    navigate("/sessionAdding");
+  };
+
   return (
     <Card
       width={utils.screenWidth}
@@ -75,6 +82,7 @@ export const MainCard = () => {
         <AnalyticsButton />
         <Box
           as={BsFillPlusCircleFill}
+          onClick={handleAddSessionClick}
           color={utils.teal500}
           size={50}
           _hover={{

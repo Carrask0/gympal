@@ -8,6 +8,7 @@ import StatisticsPage from "./pages/StatisticsPage"
 import SessionDetailPage from "./pages/SessionDetailPage"
 import SessionAddingPage from "./pages/SessionAddingPage"
 import ExerciseSearchPage from "./pages/ExerciseSearchPage.js"
+import ExerciseStatisticsPage from "./pages/ExerciseStatisticsPage.js"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/statistics" element={<StatisticsPage />} />
+          <Route path="/exerciseStatistics" element={<ExerciseStatisticsPage />} />
           <Route path="/sessionDetail" element={<SessionDetailPage />} />
           <Route path="/sessionAdding" element={<SessionAddingPage />} />
           <Route path="/exerciseSearch" element={<ExerciseSearchPage />} />
