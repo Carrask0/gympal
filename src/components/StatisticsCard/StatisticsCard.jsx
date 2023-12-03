@@ -99,7 +99,7 @@ export const StatisticsCard = () => {
       height={utils.screenHeight}
       backgroundColor={utils.grey700}
     >
-      <CardHeader>
+      <CardHeader height={utils.screenHeight * 0.05} marginBottom={10}>
         <Box
           as={BsArrowLeft}
           size={30}
@@ -188,7 +188,7 @@ export const StatisticsCard = () => {
           </Box>
         </Box>
       </CardBody>
-      <CardFooter>Footer</CardFooter>
+      <CardFooter></CardFooter>
     </Card>
   );
 };
