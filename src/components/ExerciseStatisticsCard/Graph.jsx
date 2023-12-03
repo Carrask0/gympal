@@ -13,9 +13,10 @@ export const Graph = ({ data }) => {
       marginTop={10}
     >
       <LineChart
-        width={utils.screenWidth * 0.8}
+        width={utils.screenWidth * 0.9}
         height={utils.screenHeight * 0.12}
         data={data.graphData}
+        paddingLeft={5}
         //Move the graph to the left a bit
         margin={{ left: -30 }}
       >
