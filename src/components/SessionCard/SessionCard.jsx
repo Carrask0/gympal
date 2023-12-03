@@ -17,7 +17,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { ExerciseButtonAdd } from "./ExerciseButtonAdd";
 
-export const SessionAddingCard = () => {
+export const SessionCard = ({ editting }) => {
   const data = {
     sessionName: "Session 1",
     sessionDate: "1/1/2021",
@@ -49,13 +49,13 @@ export const SessionAddingCard = () => {
 
   const navigate = useNavigate();
 
-  const [editMode, setEditMode] = useState(false);
+  const [editMode, setEditMode] = useState(editting);
 
   const handleBackClick = () => {
     navigate("/");
   };
   const handleAddExerciseClick = () => {
-    navigate("/exerciseAdding");
+    navigate("/exerciseSearch");
   };
   const handleSaveClick = () => {
     navigate("/");
@@ -192,7 +192,6 @@ export const SessionAddingCard = () => {
           display={"flex"}
           justifyContent={"flex-start"}
           flexDirection={"column"}
-          //box with all exercises
         >
           {data.exercises.map((exercise) => (
             <Box
@@ -203,16 +202,18 @@ export const SessionAddingCard = () => {
               marginTop={5}
             >
               <ExerciseButtonAdd exercise={exercise} />
-              <Box
-                as={DeleteIcon}
-                size={20}
-                color={utils.teal500}
-                _hover={{
-                  cursor: "pointer",
-                  color: utils.teal600,
-                }}
-                justifyContent={"flex-end"}
-              />
+              {editMode && (
+                <Box
+                  as={DeleteIcon}
+                  size={20}
+                  color={utils.teal500}
+                  _hover={{
+                    cursor: "pointer",
+                    color: utils.teal600,
+                  }}
+                  justifyContent={"flex-end"}
+                />
+              )}
             </Box>
           ))}
         </Box>

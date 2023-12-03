@@ -1,0 +1,21 @@
+"filename", "language", "JavaScript", "CSS", "JSON", "JavaScript JSX", "comment", "blank", "total"
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/App.css", "CSS", 0, 33, 0, 0, 0, 6, 39
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/App.js", "JavaScript", 26, 0, 0, 0, 0, 5, 31
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/components/ExerciseSearchCard/ExerciseSearchCard.jsx", "JavaScript JSX", 0, 0, 0, 144, 0, 12, 156
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/components/ExerciseStatisticsCard/ExerciseStatisticsCard.jsx", "JavaScript JSX", 0, 0, 0, 268, 0, 11, 279
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/components/ExerciseStatisticsCard/Graph.jsx", "JavaScript JSX", 0, 0, 0, 35, 1, 2, 38
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/components/MainCard/AnalyticsButton.jsx", "JavaScript JSX", 0, 0, 0, 34, 0, 6, 40
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/components/MainCard/MainCard.jsx", "JavaScript JSX", 0, 0, 0, 96, 2, 11, 109
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/components/SessionCard/ExerciseButtonAdd.jsx", "JavaScript JSX", 0, 0, 0, 22, 0, 3, 25
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/components/SessionCard/SessionCard.jsx", "JavaScript JSX", 0, 0, 0, 226, 1, 10, 237
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/components/StatisticsCard/ExerciseButton.jsx", "JavaScript JSX", 0, 0, 0, 29, 0, 2, 31
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/components/StatisticsCard/StatisticsCard.jsx", "JavaScript JSX", 0, 0, 0, 184, 2, 9, 195
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/index.css", "CSS", 0, 12, 0, 0, 0, 2, 14
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/index.js", "JavaScript", 10, 0, 0, 0, 0, 5, 15
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/pages/ExerciseSearchPage.js", "JavaScript", 7, 0, 0, 0, 0, 2, 9
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/pages/ExerciseStatisticsPage.js", "JavaScript", 7, 0, 0, 0, 0, 2, 9
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/pages/MainPage.js", "JavaScript", 7, 0, 0, 0, 0, 2, 9
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/pages/SessionPage.js", "JavaScript", 7, 0, 0, 0, 0, 2, 9
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/pages/StatisticsPage.js", "JavaScript", 7, 0, 0, 0, 0, 2, 9
+"/Users/administrador/Desktop/INTERFACES/GymPal/gympal/src/utils.json", "JSON", 0, 0, 8, 0, 0, 2, 10
+"Total", "-", 71, 45, 8, 1038, 6, 96, 1264

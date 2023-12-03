@@ -13,7 +13,9 @@ import profilePicture from "../../assets/profilePicture.jpeg";
 
 import { AnalyticsButton } from "./AnalyticsButton";
 import { BsFillPlusCircleFill } from "react-icons/bs";
+
 import { useNavigate } from "react-router-dom";
+
 
 let mockData = {
   totalPoints: 210,
@@ -24,7 +26,12 @@ export const MainCard = () => {
   const navigate = useNavigate();
 
   const handleAddSessionClick = () => {
-    navigate("/sessionAdding");
+    //navigate to session with parameter editting set to true
+    navigate("/session/true");
+  };
+  const handleSessionDetailClick = () => {
+    //navigate to session with parameter editting set to false
+    navigate("/session/false");
   };
 
   return (
@@ -64,7 +71,12 @@ export const MainCard = () => {
           Tu actividad hoy
         </Text>
 
-        <Button colorScheme={"teal"} borderRadius={20} marginTop={5}>
+        <Button 
+          colorScheme={"teal"} 
+          borderRadius={20} 
+          marginTop={5}
+          onClick={handleSessionDetailClick}
+        >
           <Text color={utils.grey700} fontSize={"xl"} fontWeight={"bold"}>
             Sesion 1
           </Text>
